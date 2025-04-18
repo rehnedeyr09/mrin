@@ -5,7 +5,7 @@ import subprocess
 import datetime
 import os
 
-from keep_alive import keep_alive
+from keep_alive.py import keep_alive
 keep_alive()
 # insert your Telegram bot token here
 bot = telebot.TeleBot('7606624168:AAGGJ5wfbv-6CATtbOn54uUC6Mq0gg6fRYE')
